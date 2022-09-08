@@ -17,29 +17,20 @@ public class _CharMove : MonoBehaviour
         maincam = Camera.main;
 
     }
-
     void Update()
     {
         if(Input.GetKey(KeyCode.W))
         {
             max_speed= 0.2f;
-
             axisZ=max_speed*Input.GetAxis("Vertical");
 
             if(Input.GetKey(KeyCode.LeftShift)&& Input.GetKey(KeyCode.W))
             {
                 max_speed= 1f;
-
                 axisZ=max_speed*Input.GetAxis("Vertical");
             }
-        }
-        else
-        {
-            max_speed= 0f;
-
-            axisZ=max_speed*Input.GetAxis("Vertical");
-        }
-        if(Input.GetKeyDown(KeyCode.A))
+        
+        if(Input.GetKeyDown(KeyCode.A)&& Input.GetKey(KeyCode.W))
         {
             charanim.SetBool("turn_left",true);
         }
@@ -47,7 +38,7 @@ public class _CharMove : MonoBehaviour
         {
             charanim.SetBool("turn_left",false);
         }
-        if(Input.GetKeyDown(KeyCode.D))
+        if(Input.GetKeyDown(KeyCode.D)&& Input.GetKey(KeyCode.W))
         {
             charanim.SetBool("turn_right",true);
         }
@@ -55,6 +46,13 @@ public class _CharMove : MonoBehaviour
         {
             charanim.SetBool("turn_right",false);
         }
+        }
+        else
+        {
+            max_speed= 0f;
+            axisZ=max_speed*Input.GetAxis("Vertical");
+        }
+        
 
         Vector3 vector = new Vector3(0,0,axisZ);
 
