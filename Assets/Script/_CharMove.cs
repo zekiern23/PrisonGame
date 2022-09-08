@@ -30,7 +30,14 @@ public class _CharMove : MonoBehaviour
                 axisZ=max_speed*Input.GetAxis("Vertical");
             }
         
-        if(Input.GetKeyDown(KeyCode.A)&& Input.GetKey(KeyCode.W))
+        
+        }
+        else
+        {
+            max_speed= 0f;
+            axisZ=max_speed*Input.GetAxis("Vertical");
+        }
+        if(Input.GetKeyDown(KeyCode.A))
         {
             charanim.SetBool("turn_left",true);
         }
@@ -38,19 +45,13 @@ public class _CharMove : MonoBehaviour
         {
             charanim.SetBool("turn_left",false);
         }
-        if(Input.GetKeyDown(KeyCode.D)&& Input.GetKey(KeyCode.W))
+        if(Input.GetKeyDown(KeyCode.D))
         {
             charanim.SetBool("turn_right",true);
         }
         if(Input.GetKeyUp(KeyCode.D))
         {
             charanim.SetBool("turn_right",false);
-        }
-        }
-        else
-        {
-            max_speed= 0f;
-            axisZ=max_speed*Input.GetAxis("Vertical");
         }
         
 
