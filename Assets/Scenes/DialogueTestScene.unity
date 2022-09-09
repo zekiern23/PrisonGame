@@ -424,9 +424,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
-  m_Height: 1.8202674
+  m_Height: 1.7314109
   m_Direction: 1
-  m_Center: {x: 0, y: 0.8729887, z: 0}
+  m_Center: {x: 0, y: 0.917417, z: 0}
 --- !u!114 &513606504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -603,7 +603,6 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
-  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -676,18 +675,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 30.179, y: 0, z: 0}
---- !u!114 &963194229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62f6b7065f9e22a42876c1a42125e7e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1547913211
 GameObject:
   m_ObjectHideFlags: 0
@@ -953,7 +940,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6562031803846424682, guid: 619f88d1e87438a43a166f80364f0fd4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.69
+      value: 0.526
       objectReference: {fileID: 0}
     - target: {fileID: 6562031803846424682, guid: 619f88d1e87438a43a166f80364f0fd4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1361,8 +1348,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3052991281838948814}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 5.28, y: 2.1134, z: 0}
-  m_LocalScale: {x: 227.16103, y: 448.9658, z: 217.75398}
+  m_LocalPosition: {x: 6.1, y: 2.211, z: 3.7}
+  m_LocalScale: {x: 227.16103, y: 651.0004, z: 227.5529}
   m_Children:
   - {fileID: 958209852}
   m_Father: {fileID: 2763166815874929729}
@@ -1738,8 +1725,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.016597744, y: 0.028657254, z: 0.023084348}
-  m_Center: {x: -0.0023512014, y: 0.0037432846, z: 0.0015421764}
+  m_Size: {x: 0.016597744, y: 0.028523227, z: 0.023084348}
+  m_Center: {x: -0.0023512016, y: 0.0038103003, z: 0.0015421766}
 --- !u!33 &3097591962870848614
 MeshFilter:
   m_ObjectHideFlags: 0
