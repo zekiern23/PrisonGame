@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="849a7665-94c0-4ec7-8d4f-aa83a92f2b15" name="Default Changelist" comment="" />
+    <list default="true" id="ba202ecd-bcb5-438b-82d9-547f5e69653b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/_CharMove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FlowListener.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
-  <component name="ProjectId" id="2EUhcuriIb9RK8o2SZzeU7Y7urv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/FlowListener.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2EVRE80N7t73BjIANZmrZ4T9qVy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,7 +25,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="ServiceViewManager">
@@ -42,18 +44,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="849a7665-94c0-4ec7-8d4f-aa83a92f2b15" name="Default Changelist" comment="" />
-      <created>1662656153823</created>
+      <changelist id="ba202ecd-bcb5-438b-82d9-547f5e69653b" name="Default Changelist" comment="" />
+      <created>1662678651457</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1662656153823</updated>
-      <workItem from="1662656158155" duration="29000" />
+      <updated>1662678651457</updated>
+      <workItem from="1662678655900" duration="97000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
 </project>
