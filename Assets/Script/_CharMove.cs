@@ -53,7 +53,6 @@ public class _CharMove : MonoBehaviour
         {
             charanim.SetBool("turn_right",false);
         }
-        
 
         Vector3 vector = new Vector3(0,0,axisZ);
 
