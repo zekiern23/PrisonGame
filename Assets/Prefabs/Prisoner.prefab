@@ -2488,8 +2488,7 @@ GameObject:
   - component: {fileID: 3598902266899089380}
   - component: {fileID: 3598902266899089386}
   - component: {fileID: 3598902266899089381}
-  - component: {fileID: 7701396859327358424}
-  - component: {fileID: 7701396859327358426}
+  - component: {fileID: 1449185662990895463}
   m_Layer: 0
   m_Name: Prisoner
   m_TagString: Untagged
@@ -2557,25 +2556,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7701396859327358425}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3197186f1c2cf5147acc70f71b7c689d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &7701396859327358424
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7701396859327358425}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f351b61725abd734f941875e941780dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _speed: 1
---- !u!95 &7701396859327358426
+--- !u!95 &1449185662990895463
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -2584,11 +2570,11 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7701396859327358425}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 2e0a9b4dbfd6ca94f984e8ee0bbf6015, type: 3}
-  m_Controller: {fileID: 9100000, guid: 8a81e7b9d9d460c4c8a7dcf95730b059, type: 2}
+  m_Avatar: {fileID: 9000000, guid: 6ff98783d10689e4199627949324d20f, type: 3}
+  m_Controller: {fileID: 9100000, guid: 9bcdb182c81761241ad4ea6baf6151db, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 2
-  m_ApplyRootMotion: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
