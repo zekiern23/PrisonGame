@@ -1,5 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/PubScene.unity.meta
 guid: f0b4c757ec24a3e4ab2e711214e31246
+========
+guid: 97feaafb85338ee4297b4ec95e57a4d9
+folderAsset: yes
+>>>>>>>> 53758c1fd2601f72276a2c99b382e5a02d55e1ad:Assets/Plugins/Pixel Crushers/Common/Scripts.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Plugins/Pixel Crushers/Common.meta
 guid: 92e3e4a1420c10041a215f656d4e995a
+========
+guid: e18355ba658aaa94fa83f204b712a42c
+>>>>>>>> 53758c1fd2601f72276a2c99b382e5a02d55e1ad:Assets/Plugins/Pixel Crushers/Dialogue System/Scripts.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
